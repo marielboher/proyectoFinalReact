@@ -1,0 +1,26 @@
+.welcome-user{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #F5EFE6;
+    min-height: 86vh;
+    padding-top: 20px;
+}
+
+.welcome-user h2{
+    color: #AD8B73;
+}
+
+.welcome-user button{
+    border: none;
+    margin-bottom: 15px;
+    background-color: #AD8B73;
+    color: #FFF;
+    width: 150px;
+    height: 35px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+

@@ -1,0 +1,63 @@
+.card-des{
+    height: 354px;
+    width: 274px;
+    background-color: #ffff;
+    color:#1f1f1f;
+    /* padding: 19px; */
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    /* transition: .3s; */
+    overflow: hidden;
+    position: relative;
+    margin: 1,5%;
+    transition: 0.5s;
+}
+
+.card-des:hover{
+    transform: scale(1.05);
+}
+
+.card-des img{
+    height: 283px;
+    width: 236px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.hover{
+    width: 0%;
+    height: 354px;
+    background-color: #ffffff88;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-des p{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 9px;
+    padding: 9px 0px;
+    
+}
+
+.card-des {
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgba(233, 233, 240, 0.2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(237, 237, 241, 0.2);
+   }
+   
+   .card-des:hover {
+    box-shadow: -12px 12px 2px -1px rgba(238, 238, 243, 0.2);
+   }
+
+   

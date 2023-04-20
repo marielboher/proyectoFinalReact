@@ -1,0 +1,472 @@
+
+.container-cart{
+    background-color: #F5EFE6;
+    min-height: 85vh;
+    padding: 40px;
+}
+.marco-cart{
+    border:#D0B8A8 1px solid; 
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+}
+.cart-items {
+    padding: 30px;
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+     "imagen producto cantidad precio cancelar";
+}
+
+.imagen-cart {
+    grid-area: imagen;
+}
+.imagen-cart img{
+    height: 150px;
+    border: 1px solid #D0B8A8; 
+}
+
+.producto {
+    grid-area: producto;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+.producto p{
+    font-size: 16px;
+    color: #AD8B73;
+}
+
+.precio{
+    grid-area: precio;
+    display: flex;
+    align-items: center;
+}
+
+.cantidad {
+    grid-area: cantidad;
+    display: flex;
+    align-items: center;
+}
+
+.precio p{
+    color: #AD8B73;
+}
+.cantidad p{
+    color: #AD8B73;
+} 
+.cancelar {
+    grid-area: cancelar;
+    display: flex;
+    align-items: center;
+}
+
+.cancelar button{
+    border: none;
+    margin-bottom: 15px;
+    color: #AD8B73;
+    background-color: #FFF;
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+}
+
+.counter{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn-delete{
+    padding: 2px;
+}
+
+.no-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+    color: #AD8B73;
+}
+
+.finalizar-compra{
+    border: none;
+    margin-bottom: 15px;
+    color: #AD8B73;
+    background-color: #FFF;
+    width: 250px;
+    height: 25px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+    margin-top: 5px;
+
+}
+.cont-finalizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vaciar-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.vaciar-carrito button{
+    border: none;
+    margin-bottom: 15px;
+    color: #AD8B73;
+    background-color: #FFF;
+    width: 150px;
+    height: 25px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+}
+.total-cant{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.total-cant p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    color: #AD8B73;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+
+}
+.total-price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.total-price p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    color: #AD8B73;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+}
+
+.button-modal {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #AD8B73;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #AD8B73;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .button-modal:disabled {
+    pointer-events: none;
+   }
+   
+   .button-modal:hover {
+    color: #fff;
+    background-color: #AD8B73;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .button-modal:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+   .button-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 10px;
+       flex-direction: column;
+   }
+
+   .button-container p{
+       color: #AD8B73;
+   }
+
+  .modal-personalizado{
+      color: #AD8B73;
+  }
+
+  @media screen and (max-width: 690px){
+
+    .container-cart{
+        background-color: #F5EFE6;
+        min-height: 85vh;
+        padding: 40px;
+    }
+    .marco-cart{
+        border:#D0B8A8 1px solid; 
+        box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+    }
+    .cart-items {
+        padding: 30px;
+        display: grid;
+        display: flex;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: px;
+        grid-auto-flow: row;
+        grid-template-areas:
+         "imagen producto cantidad precio cancelar";
+    }
+    
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 130px;
+        border: 1px solid #D0B8A8; 
+    }
+    
+    .producto {
+        grid-area: producto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 150px;
+    }
+    .producto p{
+        font-size: 14px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 595px){
+    
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 100px;
+        border: 1px solid #D0B8A8; 
+    }
+    
+    .producto {
+        grid-area: producto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 120px;
+    }
+    .producto p{
+        font-size: 13px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+    .total-cant p{
+        font-size: 15px;
+    }
+    .total-price p{
+        font-size: 15px;
+    }
+
+  }
+
+  @media screen and (max-width: 535px){
+    .container-cart{
+        padding: 20px;
+    }
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 60px;
+        border: 1px solid #D0B8A8; 
+    }
+    
+    .producto {
+        grid-area: producto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 120px;
+    }
+    .producto p{
+        font-size: 13px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+    .total-cant p{
+        font-size: 15px;
+    }
+    .total-price p{
+        font-size: 15px;
+    }
+
+  }
+  @media screen and (max-width: 485px){
+    .container-cart{
+        padding: 10px;
+    }
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 40px;
+        border: 1px solid #D0B8A8; 
+        margin-top: 10px;
+    }
+    
+    .producto {
+        grid-area: producto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 120px;
+    }
+    .producto p{
+        font-size: 11px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+    .cantidad p{
+        font-size: 11px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+    .total-cant p{
+        font-size: 13px;
+    }
+    .total-price p{
+        font-size: 13px;
+    }
+
+  }
+
+  @media screen and (max-width: 390px){
+    .container-cart{
+        padding: 10px;
+    }
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 25px;
+        border: 1px solid #D0B8A8; 
+        margin-top: 10px;
+    }
+    
+    .producto {
+        min-width: 80px;
+    }
+    .producto p{
+        font-size: 11px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+    .cantidad p{
+        font-size: 11px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+
+    .total-cant p{
+        font-size: 13px;
+        width: 190px;
+
+    }
+    .total-price p{
+        font-size: 13px;
+        width: 190px;
+    }
+  }

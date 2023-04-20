@@ -1,0 +1,250 @@
+.container-details {
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #F5EFE6;
+
+}
+
+.img-details {
+    width: 50%;
+    padding: 20px;
+}
+
+.img-details img {
+    height: 90%;
+    width: 90%;
+    border: 1px solid #AD8B73;
+    padding: 10px;
+}
+
+.info-details {
+    padding-right: 20px;
+    font-family: 'Neue World Font';
+    height: 438px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-details h1 {
+    color: #AD8B73;
+}
+
+.info-details p {
+    color: #AD8B73;
+    text-align: center;
+    width: 70%;
+}
+
+.info-details button {
+    background-color: #ffff;
+    border: none;
+    width: 230px;
+    height: 35px;
+    border-radius: 2px;
+    color: #AD8B73;
+    box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 3px solid #AD8B73;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #AD8B73;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.btn:hover::before {
+    transform: translateX(0);
+}
+
+.container-loader {
+    min-height: 80vh;
+    background-color: #F5EFE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+    animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .container-details {
+        display: flex;
+        align-items: center;
+        min-height: 85vh;
+        background-color: #F5EFE6;
+
+    }
+
+    .img-details {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .img-details img {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #AD8B73;
+        padding: 10px;
+    }
+
+    .info-details {
+        padding-right: 20px;
+        font-family: 'Neue World Font';
+        height: 438px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-details h1 {
+        color: #AD8B73;
+    }
+
+    .info-details p {
+        color: #AD8B73;
+        text-align: center;
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container-details {
+        display: flex;
+        align-items: center;
+        background-color: #F5EFE6;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-details {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .img-details img {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #AD8B73;
+        padding: 10px;
+    }
+
+    .info-details {
+        padding-right: 20px;
+        font-family: 'Neue World Font';
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-details h1 {
+        color: #AD8B73;
+    }
+
+    .info-details p {
+        color: #AD8B73;
+        text-align: center;
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-details {
+        display: flex;
+        align-items: center;
+        min-height: 85vh;
+        background-color: #F5EFE6;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-details {
+        width: 50%;
+    }
+
+    .img-details img {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #AD8B73;
+        padding: 10px;
+    }
+
+    .info-details {
+        padding-right: 20px;
+        font-family: 'Neue World Font';
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-details h1 {
+        color: #AD8B73;
+    }
+
+    .info-details p {
+        color: #AD8B73;
+        text-align: center;
+        width: 80%;
+        font-size: 12px;
+    }
+}

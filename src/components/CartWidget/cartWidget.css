@@ -1,0 +1,31 @@
+
+.icon {
+    position: relative;
+  }
+  
+  .cantidad-productos {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    transform: translate(50%, -50%);
+    font-size: 10px;
+    color: #AD8B73;
+    background-color: #F5EFE6;
+    border: 1px solid #D0B8A8;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 668px) {
+    .cantidad-productos {
+      top: 10%;
+      right: 25%;
+      transform: translate(50%, -50%);
+    }
+  }
+

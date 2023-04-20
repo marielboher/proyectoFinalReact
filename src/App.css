@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-app{
+  overflow-x: hidden;
+}
+
+.productos{
+  min-height: 80vh;
+  background-color: #F5EFE6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #F5EFE6;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #D0B8A8;
+  border-radius: 5px;
+  border: 1px solid #AD8B73;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #AD8B73;
+}

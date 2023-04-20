@@ -1,0 +1,48 @@
+.login-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5efe6;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.login-register input {
+  border: none;
+  height: 30px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.1);
+}
+.login-register input::placeholder {
+  color: #ccc;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.login-register button {
+  border: none;
+  margin-bottom: 15px;
+  background-color: #ad8b73;
+  color: #fff;
+  width: 150px;
+  height: 35px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.login-register label {
+  color: #ad8b73;
+}
+
+@media (max-width: 495px) {
+  .login-register {
+    width: 170px;
+  }
+
+  .login-register input {
+    width: 150px;
+  }
+}

@@ -1,0 +1,109 @@
+.featured-section {
+  background-image: url(../../assets/multimedia/baneer3.webp);
+  min-height: 150vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+}
+
+.container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  font-family: "Neue World Font";
+}
+
+.details h4 {
+  font-size: 60px;
+  color: #f5efe6;
+}
+.details h6 {
+  color: #f5efe6;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.details p {
+  color: #f5efe6;
+  font-size: 13px;
+  width: 40%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .details h4 {
+    font-size: 60px;
+    color: #f5efe6;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    font-family: "Neue World Font";
+  }
+
+  .details h4 {
+    font-size: 50px;
+    color: #f5efe6;
+  }
+  .details h6 {
+    color: #f5efe6;
+    font-size: 13px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .details p {
+    color: #f5efe6;
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .section-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}

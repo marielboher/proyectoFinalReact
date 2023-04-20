@@ -1,0 +1,157 @@
+[
+    {
+      "id": 1,
+      "nombre": "MATTÉ WOOD CHAIR",
+      "precio": 10.99,
+      "imagen": "../src/assets/multimedia/silla.webp",
+      "descripcion": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+      "categoria": "chair",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "nombre": "ONYX WOOD CHAIR",
+      "precio": 15.99,
+      "imagen": "../src/assets/multimedia/silla2.webp",
+      "descripcion": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+      "categoria": "chair",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "nombre": "NATIVE LIGHT CHAIR",
+      "precio": 2500,
+      "imagen": "../src/assets/multimedia/silla3.webp",
+      "descripcion": "The chair has a classic style characterized by a robust design, composed of tubes with larger dimensions and a high back, making the product more ergonomic. The MDP backrest and the upholstered seat provide greater user comfort. In addition to being an elegant chair, it has high strength.",
+      "categoria": "chair",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "nombre": "PAOLA WOOD CHAIR",
+      "precio": 8.99,
+      "imagen": "../src/assets/multimedia/silla4.webp",
+      "descripcion": "Paola chair. The chair has a classic style characterized by a robust design, composed of tubes with larger dimensions and a high back, making the product more ergonomic. The MDP backrest and the upholstered seat provide greater user comfort.",
+      "categoria": "chair",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "nombre": "ITALO",
+      "precio": 18.99,
+      "imagen": "../src/assets/multimedia/lampara1.jpg",
+      "descripcion": "Ceramic pendant with simple and refined lines, in bright white and crowned by a brass piece. The lampshade is made by hand, so each piece is unique and may present variations in tone from the photo..",
+      "categoria": "lamps",
+      "quantity": 1
+
+    },
+    {
+      "id": 6,
+      "nombre": "GUÍXOLS",
+      "precio": 12.99,
+      "imagen": "../src/assets/multimedia/lampara2.jpg",
+      "descripcion": "A rattan trellis in a natural color that draws a beautiful flared shape. The silhouette and the material have a certain retro reminiscence that we love. Cable and ceiling base in white.",
+      "categoria": "lamps",
+      "quantity": 1
+
+    },
+    {
+      "id": 7,
+      "nombre": "CHEBBI",
+      "precio": 9.99,
+      "imagen": "../src/assets/multimedia/lampara3.jpg",
+      "descripcion": "Endo is a light and refined Mid-Century style floor lamp. The elegant and minimalist design of this floor lamp makes us travel back in time.",
+      "categoria": "lamps",
+      "quantity": 1
+
+    },
+    {
+      "id": 8,
+      "nombre": "ATOM",
+      "precio": 21.99,
+      "imagen": "../src/assets/multimedia/lampara4.jpg",
+      "descripcion": "What we like about Atom is that it is a very stylish floor lamp. Imagine it on the side of the sofa or illuminating your work table. We assure you that it is a piece that transmits elegance to any room.",
+      "categoria": "lamps",
+      "quantity": 1
+
+    },
+    {
+      "id": 9,
+      "nombre": "IVORY",
+      "precio": 14.99,
+      "imagen": "../src/assets/multimedia/mantel1.jpg",
+      "descripcion": "Tablecloth made of a blend of linen and cotton in ivory, with a darker trim and finished in fringes. It measures 140 x 240 cm.",
+      "categoria": "textile",
+      "quantity": 1
+
+    },
+    {
+      "id": 10,
+      "nombre": "SET 2 IVORY",
+      "precio": 17.99,
+      "imagen": "../src/assets/multimedia/servilletas.jpg",
+      "descripcion": "Set of 2 napkins made from a blend of linen and cotton in ivory, with a slightly darker edging. They measure 40 cm on a side.",
+      "categoria": "textile",
+      "quantity": 1
+
+    },
+    {
+      "id": 11,
+      "nombre": "HAMAMA",
+      "precio": 11.99,
+      "imagen": "../src/assets/multimedia/mantel2.jpg",
+      "descripcion": "Stonewashed cotton tablecloth with a checkered design in forest green on an ecru background. It is topped with small fringes. You can machine wash it at a maximum of 40 degrees.",
+      "categoria": "textile",
+      "quantity": 1
+
+    },
+    {
+      "id": 12,
+      "nombre": "BUBBLEGUM",
+      "precio": 7.99,
+      "imagen": "../src/assets/multimedia/manta1.jpg",
+      "descripcion": "Lightweight single-colour cotton bedspread with a rustic finish and topped with small fringes. You can wash it at home at a maximum of 30 degrees. It measures 130 x 170 cm.",
+      "categoria": "textile",
+      "quantity": 1
+
+    },
+    {
+      "id": 13,
+      "nombre": "MUSHROOM",
+      "precio": 29.99,
+      "imagen": "../src/assets/multimedia/jarron1.jpg",
+      "descripcion": "Stoneware jar with matt enamel and rough texture. Staining may occur with time and use. Dishwasher and microwave safe",
+      "categoria": "vases",
+      "quantity": 1
+
+    },
+    {
+      "id": 14,
+      "nombre": "DALLOWAY",
+      "precio": 13.99,
+      "imagen": "../src/assets/multimedia/jarron2.jpg",
+      "descripcion": "Ceramic vase in beige with a crackled finish. It is shaped like a jug, with a handle and spout, but it is not suitable for food use. It is very decorative and is available in 2 sizes.",
+      "categoria": "vases",
+      "quantity": 1
+
+    },
+    {
+      "id": 15,
+      "nombre": "GRES BEE MINI",
+      "precio": 19.99,
+      "imagen": "../src/assets/multimedia/jarron3.jpg",
+      "descripcion": "Stoneware jug in dusty pink color, with fluted rim and handle. You can wash it in the dishwasher. Due to the material, the color may vary from the photo.",
+      "categoria": "vases",
+      "quantity": 1
+
+    },
+    {
+      "id": 16,
+      "nombre": "OLMY",
+      "precio": 16.99,
+      "imagen": "../src/assets/multimedia/JARRON4.jpg",
+      "descripcion": "If you like to have fresh flowers at home, you know that you always want to have a special vase in which to display your favorite flowers. In addition, these types of narrow-mouthed vases are the favorites of indoor gardeners for cutting their plants and leaving them in water to take root.",
+      "categoria": "vases",
+      "quantity": 1
+    }
+]  
