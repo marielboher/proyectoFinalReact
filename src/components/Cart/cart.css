@@ -470,3 +470,61 @@
         width: 190px;
     }
   }
+
+  @media screen and (max-width: 338px){
+    .container-cart{
+        padding: 10px;
+    }
+    .imagen-cart {
+        grid-area: imagen;
+    }
+    .imagen-cart img{
+        height: 20px;
+        border: 1px solid #D0B8A8; 
+        margin-top: 10px;
+    }
+    
+    .producto {
+        min-width: 60px;
+    }
+    .producto p{
+        font-size: 11px;
+    }
+    
+    .precio{
+        grid-area: precio;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+    .cantidad p{
+        font-size: 11px;
+    }
+    
+    .cantidad {
+        grid-area: cantidad;
+        display: flex;
+        align-items: center;
+    }
+
+    .total-cant p{
+        font-size: 13px;
+        width: 190px;
+
+    }
+    .total-price p{
+        font-size: 13px;
+        width: 190px;
+    }
+    .cancelar {
+        grid-area: cancelar;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cancelar button{
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+  }
