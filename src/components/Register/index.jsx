@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import { useAuth } from "../../contexts/AuthContext";
 import { Alert } from "../Alert";
 import "./register.css";
@@ -18,11 +19,22 @@ const Register = () => {
     setUser({ ...user, [name]: value });
   };
 
+  const welcome = () => {
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: `Welcome ${user.email}`,
+      showConfirmButton: false,
+      timer: 1500,
+    });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     try {
       await signup(user.email, user.password);
+      welcome()
       navigate("/");
     } catch (error) {
       if (error.code === "auth/weak-password") {

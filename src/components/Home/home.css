@@ -9,12 +9,10 @@
 }
 
 .home{
-    /* padding-top: 10px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #F5EFE6;
-    /* padding-bottom: 10px; */
     min-height: 85vh;
     width: 100%;
   }
@@ -203,6 +201,8 @@
       font-size: 50px;
       padding: 30px;
       text-align: center;
+      width: 500px;
+
     }
     .imagen-inicio{
       height: 532px;
@@ -336,6 +336,8 @@
  
     .home p{
       font-size: 40px;
+      width: 400px;
+
     }
     .imagen-inicio{
       height: 332px;
