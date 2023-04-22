@@ -14,7 +14,7 @@
   background-color: #f5efe6;
   flex-direction: column;
   border-radius: 5px;
-  width: 50%;
+  width: 65%;
   height: 50%;
   box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.1);
 }
@@ -87,6 +87,14 @@
   .button-google{
     display: none;
   }
+}
+
+.not-account{
+  color: #ad8b73;
+}
+
+.not-account a{
+  color: #ad8b73;
 }
 
 
