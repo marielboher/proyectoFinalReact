@@ -83,6 +83,12 @@
 .button-google:hover {
   transform: scale(1.02);
 }
+@media (max-width: 595px) {
+  .button-google{
+    display: none;
+  }
+}
+
 
 @media (max-width: 495px) {
   .login-register {
