@@ -247,3 +247,46 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .container-details {
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+        background-color: #F5EFE6;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-details {
+        width: 50%;
+    }
+
+    .img-details img {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #AD8B73;
+        padding: 10px;
+    }
+
+    .info-details {
+        padding-right: 0px;
+        font-family: 'Neue World Font';
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-details h1 {
+        color: #AD8B73;
+    }
+
+    .info-details p {
+        color: #AD8B73;
+        text-align: center;
+        width: 80%;
+        font-size: 12px;
+    }
+}
