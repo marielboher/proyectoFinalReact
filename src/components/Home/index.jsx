@@ -1,6 +1,6 @@
 import "./home.css";
 import fondo from "../../assets/multimedia/home3.jpeg";
-import Jarron from "../../assets/multimedia/jarron2.webp";
+import Jarron from "../../assets/multimedia/jarron.webp";
 import Textile from "../../assets/multimedia/textil3.webp";
 import NewIn from "../NewIn";
 import Featured from "../Featured";
@@ -28,7 +28,7 @@ const Home = () => {
   const textKitchen =
     "Stock your home with our cooking and decoration essentials designed to last and look beautiful in your home. Whether you are searching for a gift or simply wanting to add aesthetic to your home, we have a variety of unique products to choose from.";
   const textKids =
-    "Give your home a makeover with our beautiful collection of textiles designed to last and bring comfort to your home! Whether you're looking for a quick update for your living room, bedroom, or any other room in the house, our collection of textiles has everything you need.";
+    "Give your home a makeover with our beautiful collection of textiles designed to last and bring comfort to your home! Whether you're looking for a quick update for your living room, bedroom, or any other room in the house.";
 
   return (
     <div className="container-home">
