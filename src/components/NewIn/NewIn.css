@@ -364,10 +364,10 @@
  }
  .cta:before {
   top: 8px;
-  left: 25px;
+  left: 26px;
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 36px;
+  height: 36px;
  }
  .section-2{
    padding-bottom: 60px;
@@ -378,6 +378,10 @@
  .container-button-new2{
   margin-left: 15px;
 }
+.cta:hover:before {
+  width: 50%;
+  background: #D0B8A8;
+ }
 }
 
 @media(max-width: 390px){
@@ -436,8 +440,8 @@
   top: 8px;
   left: 25px;
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 36px;
+  height: 36px;
  }
  .section-2{
    padding-bottom: 60px;

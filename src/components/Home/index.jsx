@@ -11,17 +11,18 @@ import { collection, getDocs } from "firebase/firestore";
 const Home = () => {
   const productDB = collection(db, "productos");
   const [productos, setProducto] = useState([]);
-
-  const getProd = async () => {
-    const productCollection = await getDocs(productDB);
-    const productos = productCollection.docs.map((doc) => ({
-      ...doc.data(),
-      id: doc.id,
-    }));
-    setProducto(productos);
-  };
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const getProd = async () => {
+      const productCollection = await getDocs(productDB);
+      const productos = productCollection.docs.map((doc) => ({
+        ...doc.data(),
+        id: doc.id,
+      }));
+      setProducto(productos);
+      setIsLoading(false);
+    };
     getProd();
   }, []);
 
@@ -29,6 +30,14 @@ const Home = () => {
     "Stock your home with our cooking and decoration essentials designed to last and look beautiful in your home. Whether you are searching for a gift or simply wanting to add aesthetic to your home, we have a variety of unique products to choose from.";
   const textKids =
     "Give your home a makeover with our beautiful collection of textiles designed to last and bring comfort to your home! Whether you're looking for a quick update for your living room, bedroom, or any other room in the house.";
+
+  if (isLoading) {
+    return (
+      <div className="container-loader">
+        <div className="loader"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="container-home">
