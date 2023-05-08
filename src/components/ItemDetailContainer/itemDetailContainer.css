@@ -8,6 +8,7 @@
 
 .img-details {
     width: 50%;
+    padding: 20px;
 }
 
 .img-details img {
@@ -216,7 +217,7 @@
     }
 
     .img-details {
-        width: 50%;
+        width: 40%;
     }
 
     .img-details img {
@@ -227,9 +228,10 @@
     }
 
     .info-details {
-        padding-right: 20px;
+        margin-top: -90px;
+        padding-right: 0px;
         font-family: 'Neue World Font';
-        height: 250px;
+        height: 350px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -238,6 +240,8 @@
 
     .info-details h1 {
         color: #AD8B73;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .info-details p {
@@ -259,7 +263,7 @@
     }
 
     .img-details {
-        width: 50%;
+        width: 40%;
     }
 
     .img-details img {
@@ -270,9 +274,10 @@
     }
 
     .info-details {
-        padding-right: 20px;
+        margin-top: -90px;
+        padding-right: 0px;
         font-family: 'Neue World Font';
-        height: 220px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -281,6 +286,8 @@
 
     .info-details h1 {
         color: #AD8B73;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .info-details p {
@@ -302,7 +309,7 @@
     }
 
     .img-details {
-        width: 50%;
+        width: 40%;
         padding: 0%;
     }
 
@@ -314,10 +321,11 @@
     }
 
     .info-details {
+        margin-top: -70px;
         padding-right: 0px;
         padding-top: 0%;
         font-family: 'Neue World Font';
-        height: 280px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -326,6 +334,8 @@
 
     .info-details h1 {
         color: #AD8B73;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .info-details p {
