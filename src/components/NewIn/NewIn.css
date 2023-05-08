@@ -308,6 +308,7 @@
 
 @media(max-width: 415px){
   .section-1{
+    padding-top: 0%;
     background-color: #F5EFE6;
     display: flex;
     align-items: center;
